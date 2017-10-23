@@ -1,0 +1,92 @@
+
+.ios , .md {
+
+page-home {
+
+  ion-content {
+    background-color: #efefef;
+  }
+
+  ion-title {
+    text-align: center;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  .boxInfo {
+    border: solid 2px;
+    border-color: #b2b2b2;
+    border-radius: 4%;
+    height: 250px;
+    width: auto;
+    margin-top: 3%;
+    background-color: white;
+  }
+
+  .avatar {
+    border: solid 4px;
+    height: 100px;
+    border-color: #b2b2b2;
+    width: 100px;
+    border-radius: 50%;
+    position: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .nameDetail {
+    font-size: 1.2em;
+    border-color: #666666;
+    color: #3e3f42;
+    height: 30px;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 2%;
+    text-align: center;
+  }
+
+  .adressDetail {
+    border-bottom: solid 3px;
+    border-bottom-color: cadetblue;
+    height: 30px;
+    color: cadetblue;
+    font-style: italic;
+    width: 95%;
+    margin: auto;
+    margin-top: 7px;
+    padding-left: 3%;
+    padding-top: 2%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .othersDetail {
+    font-size: 1.2em;
+    height: 40px;
+    width: 95%;
+    margin: auto;
+    margin-top: 7px;
+    padding-top: 2%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #8a4182;
+    text-align: left;
+  }
+
+  .animateText{
+    white-space: nowrap;
+    animation: leftThenRight 5s linear infinite;
+  }
+
+  @keyframes leftThenRight {
+    0%   {margin-left:100%;}
+    100% {margin-right:0;}
+  }
+
+}
+
+}
